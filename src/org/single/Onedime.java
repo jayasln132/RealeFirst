@@ -18,6 +18,6 @@ public class Onedime {
 	WebElement user=t1.findElement(By.xpath("//input[@name='lastName']"));
 	user.sendKeys("Paranthaman");
 	
-	WebElement pwd=t1.findElement(By.xpath("//input[@minlength='3']"));
-	pwd.sendKeys("jayasln132@gmail.com");
+	//WebElement pwd=t1.findElement(By.xpath("//input[@minlength='3']"));
+	//pwd.sendKeys("jayasln132@gmail.com");
 }
